@@ -35,4 +35,3 @@ fi
 
 # Call the python module to do the processing, passing all arguments
 ${POLAR2GRID_HOME}/bin/polar2grid.sh viirs_sdr awips $@
-

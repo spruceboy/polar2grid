@@ -38,6 +38,4 @@ fi
 source $POLAR2GRID_HOME/bin/env.sh
 
 # Call the script
-${P2G_SHELLB3_DIR}/bin/python -m polar2grid.grids.config_helper "$@"
-
-
+python -m polar2grid.grids.config_helper "$@"

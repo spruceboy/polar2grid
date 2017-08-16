@@ -58,5 +58,7 @@ if [ -z "$POLAR2GRID_REV" ]; then
     export LD_LIBRARY_PATH=${POLAR2GRID_HOME}/common:${LD_LIBRARY_PATH}
 
     export POLAR2GRID_REV="$Id$"
+
+    alias python="${P2G_SHELLB3_DIR}/bin/python3'
 fi
 
